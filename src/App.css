@@ -1,0 +1,103 @@
+.pdfMainDiv {
+  margin: 18px;
+  padding: 12px;
+  box-shadow: 0px 0px 22px 12px #00000016;
+  border-radius: 0px 4px 4px 0px;
+}
+  .pdfSubDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 28px 14px 18px 14px;}
+    .payslipMainHeader {
+      font-size: 24px;
+      font-weight: 600;
+      color: #1d2a78;
+      margin: 0px;
+      
+    }
+    .payslipSubText {
+      font-size: 18px;
+      font-weight: 600;
+      color: #333333;
+      margin: 18px 0px 0px 0px;
+    }
+    .monthHeading {
+      font-weight: 600;
+      font-size: 16px;
+      color: #1d2a78;
+      margin: 28px 0px 6px 0px;
+    }
+      img{
+        height: 10px;
+        width: 10px;
+        margin-left: 6px;
+      }
+
+  .continueButtonPdf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d2a78;
+    height: 54px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 38px 0px 0px 0px;
+    color: #f4f4f4;
+    letter-spacing: 3px;
+  }
+
+.inputsDiv {
+  width: 100%;
+  box-sizing: border-box;
+}
+  .labelpdf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: 600;
+    color: #1d2a78 !important;
+    font-size: 18px;
+    box-shadow: 0px 0px 22px 12px #00000016;
+    border-radius: 0px 4px 4px 0px;
+    padding: 12px;
+    cursor: pointer;
+  }
+    p {
+      margin: 0px;
+      color: #222222 !important;
+      word-break: break-word;
+    }
+    .fileInput {
+      display: none;
+    }
+  .errorText {
+    color: red;
+    font-weight: 600;
+    margin: 4px 0px 0px 0px;
+  }
+
+.backArrowStyle {
+  border: none;
+  color: white;
+  padding-top: 4px;
+  padding-right: 1px;
+  margin-left: 3px;
+  margin-top: -28px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  cursor: pointer;
+  height: 29px;
+  width: 29px;
+  border-radius: 50%;
+}
+
+.paySlipErr {
+  color: red;
+  font-weight: 600;
+}
