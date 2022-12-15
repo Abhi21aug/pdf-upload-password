@@ -13,7 +13,7 @@
     .payslipMainHeader {
       font-size: 24px;
       font-weight: 600;
-      color: #1d2a78;
+      color: #5f74e8;
       margin: 0px;
       
     }
@@ -51,6 +51,7 @@
 .inputsDiv {
   width: 100%;
   box-sizing: border-box;
+  margin-top: 3rem;
 }
   .labelpdf {
     display: flex;
@@ -67,7 +68,7 @@
   }
     p {
       margin: 0px;
-      color: #222222 !important;
+      /* color: #222222 !important; */
       word-break: break-word;
     }
     .fileInput {
@@ -100,4 +101,78 @@
 .paySlipErr {
   color: red;
   font-weight: 600;
+}
+.passwordHeading {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1d2a78;
+  margin: 12px 0px 4px 0px;
+}
+
+.customInputBlock {
+  width: 100%;
+  position: relative;
+  margin: 24px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.customInputBlock input {
+  width: 100%;
+  height: 45px;
+  padding: 8px 10px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1d2a78;
+  border-radius: 5px;
+  border: 2px solid #aaaaaa;
+  outline: none;
+  box-sizing: border-box;
+}
+.customInputBlock span.customPlaceholder {
+  position: absolute;
+  font-weight: 600;
+  color: #495057;
+  white-space: nowrap;
+  font-size: 16px;
+  letter-spacing: 0px;
+  left: 10px;
+  top: 12px;
+  transition: all 0.2s;
+  transform-origin: 0% 0%;
+  background: none;
+  pointer-events: none;
+}
+.customInputBlock input:valid + span.customPlaceholder,
+.customInputBlock input:focus + span.customPlaceholder {
+  transform: scale(0.8) translateY(-30px);
+  background: #fff;
+  font-size: 18px;
+  padding: 0px 4px;
+  font-weight: 600;
+  top: 16px;
+}
+.customInputBlock input:focus {
+  color: #1d2a78;
+  border: 2px solid #1d2a78;
+}
+.customInputBlock input:focus + span.customPlaceholder {
+  color: #1d2a78;
+}
+
+.customButton {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5ed06c;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 5px;
+  letter-spacing: 2.5px;
+  font-size: 14px;
+  margin-top: 4rem;
+  border: none;
 }
